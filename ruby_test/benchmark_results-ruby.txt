@@ -1,0 +1,107 @@
+Command:
+bundle exec ruby test.rb images/<image size>.png images/<image size>-diff.png
+
+-----=====[ 256 x 256 ]=====-----
+       user     system      total        real
+comparison:  0.123109   0.000417   0.123526 (  0.122465)
+saving:  0.033436   0.000000   0.033436 (  0.033480)
+
+       user     system      total        real
+comparison:  0.124523   0.000095   0.124618 (  0.123591)
+saving:  0.032977   0.000000   0.032977 (  0.032985)
+
+       user     system      total        real
+comparison:  0.121127   0.000223   0.121350 (  0.120797)
+saving:  0.033203   0.000007   0.033210 (  0.033480)
+
+       user     system      total        real
+comparison:  0.125554   0.000198   0.125752 (  0.124904)
+saving:  0.029026   0.003267   0.032293 (  0.032285)
+
+       user     system      total        real
+comparison:  0.118941   0.000115   0.119056 (  0.118512)
+saving:  0.034929   0.000000   0.034929 (  0.035463)
+
+-----=====[ 500x500 ]=====-----
+       user     system      total        real
+comparison:  0.391067   0.003344   0.394411 (  0.393513)
+saving:  0.109847   0.003185   0.113032 (  0.113871)
+
+       user     system      total        real
+comparison:  0.427624   0.003378   0.431002 (  0.430401)
+saving:  0.113990   0.000019   0.114009 (  0.114129)
+
+       user     system      total        real
+comparison:  0.389130   0.000223   0.389353 (  0.389243)
+saving:  0.106740   0.000043   0.106783 (  0.107483)
+
+       user     system      total        real
+comparison:  0.407150   0.009715   0.416865 (  0.416708)
+saving:  0.112658   0.003264   0.115922 (  0.115931)
+
+       user     system      total        real
+comparison:  0.389708   0.000016   0.389724 (  0.391440)
+saving:  0.105327   0.000000   0.105327 (  0.106029)
+
+-----=====[ 1920x1080 ]=====-----
+       user     system      total        real
+comparison:  2.702693   0.043305   2.745998 (  2.740007)
+saving:  0.822962   0.009991   0.832953 (  0.833370)
+
+       user     system      total        real
+comparison:  2.762496   0.079658   2.842154 (  2.843406)
+saving:  0.817018   0.006592   0.823610 (  0.826559)
+
+       user     system      total        real
+comparison:  2.759618   0.033378   2.792996 (  2.788215)
+saving:  0.802894   0.003334   0.806228 (  0.806745)
+
+       user     system      total        real
+comparison:  2.774366   0.053639   2.828005 (  2.823748)
+saving:  0.825033   0.006685   0.831718 (  0.832066)
+
+       user     system      total        real
+comparison:  2.931170   0.040194   2.971364 (  2.962465)
+saving:  0.833332   0.013294   0.846626 (  0.847205)
+
+-----=====[ 2560x1440 ]=====-----
+       user     system      total        real
+comparison:  6.157446   0.053632   6.211078 (  6.208140)
+saving:  1.437917   0.013263   1.451180 (  1.458742)
+
+       user     system      total        real
+comparison:  6.137134   0.046703   6.183837 (  6.178650)
+saving:  1.440342   0.013283   1.453625 (  1.464988)
+
+       user     system      total        real
+comparison:  6.462280   0.043310   6.505590 (  6.492603)
+saving:  1.451471   0.020009   1.471480 (  1.472488)
+
+       user     system      total        real
+comparison:  6.549678   0.070360   6.620038 (  6.604632)
+saving:  1.477765   0.009956   1.487721 (  1.489309)
+
+       user     system      total        real
+comparison:  6.337977   0.066524   6.404501 (  6.403762)
+saving:  1.476395   0.023254   1.499649 (  1.501266)
+
+-----=====[ 3840x2160 ]=====-----
+       user     system      total        real
+comparison: 13.066642   0.109552  13.176194 ( 13.188305)
+saving:  1.985256   0.056511   2.041767 (  2.045317)
+
+       user     system      total        real
+comparison: 13.921980   0.100238  14.022218 ( 14.008702)
+saving:  2.088174   0.049738   2.137912 (  2.142371)
+
+       user     system      total        real
+comparison: 13.701706   0.119865  13.821571 ( 13.805026)
+saving:  2.023620   0.066330   2.089950 (  2.118512)
+
+       user     system      total        real
+comparison: 13.560614   0.100144  13.660758 ( 13.680487)
+saving:  2.107183   0.059671   2.166854 (  2.181800)
+
+       user     system      total        real
+comparison: 15.060075   0.110180  15.170255 ( 15.168873)
+saving:  2.208397   0.056534   2.264931 (  2.268348)

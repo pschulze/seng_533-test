@@ -1,0 +1,110 @@
+Compilation Command:
+crystal build test.cr --release
+
+Command:
+./test images/<image size>.png images/<image size>-diff.png
+
+-----=====[ 256 x 256 ]=====-----
+                 user     system      total        real
+comparison   0.023321   0.000267   0.023588 (  0.021450)
+saving       0.026134   0.000000   0.026134 (  0.026185)
+
+                 user     system      total        real
+comparison   0.023263   0.000626   0.023889 (  0.023905)
+saving       0.026602   0.000000   0.026602 (  0.026838)
+
+                 user     system      total        real
+comparison   0.035994   0.006666   0.042660 (  0.038484)
+saving       0.024587   0.000000   0.024587 (  0.024632)
+
+                 user     system      total        real
+comparison   0.016682   0.000889   0.017571 (  0.015738)
+saving       0.026905   0.000000   0.026905 (  0.027578)
+
+                 user     system      total        real
+comparison   0.020572   0.000290   0.020862 (  0.019347)
+saving       0.034806   0.000000   0.034806 (  0.034909)
+
+-----=====[ 500x500 ]=====-----
+                 user     system      total        real
+comparison   0.068136   0.007302   0.075438 (  0.070584)
+saving       0.084105   0.000000   0.084105 (  0.084264)
+
+                 user     system      total        real
+comparison   0.058348   0.008053   0.066401 (  0.066098)
+saving       0.100611   0.004536   0.105147 (  0.107294)
+
+                 user     system      total        real
+comparison   0.067030   0.002191   0.069221 (  0.065622)
+saving       0.090342   0.000000   0.090342 (  0.090579)
+
+                 user     system      total        real
+comparison   0.069973   0.006690   0.076663 (  0.071815)
+saving       0.102282   0.000000   0.102282 (  0.102471)
+
+                 user     system      total        real
+comparison   0.065223   0.009689   0.074912 (  0.069979)
+saving       0.085385   0.002886   0.088271 (  0.088478)
+
+-----=====[ 1920x1080 ]=====-----
+                 user     system      total        real
+comparison   0.265565   0.035553   0.301118 (  0.296659)
+saving       0.390814   0.006609   0.397423 (  0.397880)
+
+                 user     system      total        real
+comparison   0.281085   0.028175   0.309260 (  0.303540)
+saving       0.402174   0.012957   0.415131 (  0.416322)
+
+                 user     system      total        real
+comparison   0.262283   0.044837   0.307120 (  0.302541)
+saving       0.395364   0.000000   0.395364 (  0.395810)
+
+                 user     system      total        real
+comparison   0.271812   0.030098   0.301910 (  0.298906)
+saving       0.395896   0.002759   0.398655 (  0.401535)
+
+                 user     system      total        real
+comparison   0.270638   0.043506   0.314144 (  0.304176)
+saving       0.388767   0.000000   0.388767 (  0.390894)
+
+-----=====[ 2560x1440 ]=====-----
+                 user     system      total        real
+comparison   0.562818   0.066149   0.628967 (  0.617564)
+saving       0.846270   0.003394   0.849664 (  0.851816)
+
+                 user     system      total        real
+comparison   0.566786   0.046725   0.613511 (  0.605481)
+saving       1.022617   0.009938   1.032555 (  1.049102)
+
+                 user     system      total        real
+comparison   0.590468   0.043106   0.633574 (  0.626271)
+saving       0.865378   0.006279   0.871657 (  0.875163)
+
+                 user     system      total        real
+comparison   0.555293   0.053091   0.608384 (  0.599615)
+saving       0.851475   0.002751   0.854226 (  0.857356)
+
+                 user     system      total        real
+comparison   0.575293   0.030410   0.605703 (  0.597532)
+saving       0.843495   0.006420   0.849915 (  0.851023)
+
+-----=====[ 3840x2160 ]=====-----
+                 user     system      total        real
+comparison   1.062181   0.083179   1.145360 (  1.135853)
+saving       1.097982   0.009732   1.107714 (  1.109711)
+
+                 user     system      total        real
+comparison   1.117023   0.092467   1.209490 (  1.197261)
+saving       1.163613   0.002977   1.166590 (  1.168728)
+
+                 user     system      total        real
+comparison   1.058343   0.112511   1.170854 (  1.155536)
+saving       1.089145   0.000019   1.089164 (  1.090335)
+
+                 user     system      total        real
+comparison   1.063741   0.090217   1.153958 (  1.147540)
+saving       1.084155   0.006412   1.090567 (  1.118670)
+
+                 user     system      total        real
+comparison   1.108673   0.089501   1.198174 (  1.195001)
+saving       1.257780   0.013293   1.271073 (  1.274674)

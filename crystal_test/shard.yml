@@ -1,0 +1,15 @@
+name: test
+version: 0.1.0
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of test
+
+dependencies:
+  flexo:
+    github: pschulze/flexo
+    version: "~> 0.1"
+
+# license: MIT
