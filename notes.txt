@@ -1,0 +1,12 @@
+- Start maxing after only a few concurrent requests (90% usage at 5 requests, 99% at 10)
+- JMeter Testing - Running x concurrent requests for 60 seconds, 5 second ramp-up. Default timeouts - 5s connect, 30s read
+  - 256x256
+    - 219 concurrent requests
+  - 500x500
+    - 103 concurrent requests
+  - 1920x1080
+    - 30 concurrent requests
+  - 2560x1440
+    - 10 concurrent requests
+  -3840x2160
+    - 7 concurrent requests
